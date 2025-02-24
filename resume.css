@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .full {
+    width: 50%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    }
+    .left {
+    position: initial;
+    background-color: rgb(203, 255, 238);
+    padding: 20px;
+    
+    }
+    .right {
+    position: initial;
+    background-color: rgb(158, 255, 210);
+    padding: 20px;
+    
+    }
+    .image, .Contact, .Skills, .Language, .Hobbies, .title,
+    .Summary, .Experience, .Education, .project {
+    margin-bottom: 30px;
+    }
+    .h2 {
+    background-color: rgb(255, 255, 255);
+    }
+    .Education {
+        margin-top: 30px;  /* Space above */
+        margin-bottom: 30px; /* Space below */
+        padding: 20px; /* Internal spacing */
+        background-color: rgb(240, 248, 255); /* Light background for visibility (optional) */
+        border-radius: 8px; /* Optional rounded corners */
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    }
+    
+    .Education h2 {
+        margin-bottom: 15px; /* Space below the heading */
+    }
+    
+    .Education table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px; /* Adds space above the table */
+    }
+    
+    .Education th, .Education td {
+        padding: 10px; /* Adds spacing inside table cells */
+        text-align: left;
+        border: 1px solid #ccc; /* Adds border for better structure */
+    }
+    
